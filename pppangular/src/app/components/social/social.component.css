@@ -1,4 +1,15 @@
-img{
-    width: 50px;
-    padding-left: 5%; 
-}
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color: none;
+ }
+ /*solo el logo del gato que al pasar(hover), cambie de color el fondito del gato)*/
+ .fa-brands.fa-github.fa-2xl.text-white:hover{
+ --bs-text-spacity:1;
+ color: violet !important;
+ }
+/* se colorea de azul y al pasar el cursor cambia de color, si aprieto se abre el login*/
+ .fa-solid.fa-user-lock.fa-2xl.text-white:hover{
+--bs-text-spacify:1;
+color: rgb(34, 34, 139)!important;
+ }
+ 

@@ -9,6 +9,11 @@ import { SocialComponent } from './components/social/social.component';
 import { AplogoComponent } from './components/aplogo/aplogo.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { HeaderComponent } from './components/header/header.component';
+import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { HeaderComponent } from './components/header/header.component';
     SocialComponent,
     AplogoComponent,
     BannerComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarruselComponent,
+    EducacionComponent,
+    ExperienciaComponent,
+    HabilidadesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

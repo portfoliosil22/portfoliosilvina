@@ -1,9 +1,10 @@
-.row{
+/*.row{
     padding: 10px;
-}
+}*/
 div{
-    background-color: #a1b5cb;
+    background-color: gray;
     text-align: center;
+    
 }
 /*nombre*/
 #nombre{
@@ -16,8 +17,8 @@ div{
         position:absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 4px 4px 4px gray;
-        left: 35px;
+        box-shadow: 6px 8px 8px 8px gray;
+        left: 30px;
         top: 900px;
     }
 }
@@ -28,6 +29,11 @@ div{
         border-radius: 100%;
         box-shadow: 4px 4px 4px gray;
         left: 35px;
-        top: 900px;
+        top: 300px;
     }
 }
+
+ h5{
+    display: inline;
+    padding: 30px;
+ }
