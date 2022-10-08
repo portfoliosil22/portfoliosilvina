@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg bg-black fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/APLogo-20-20.png" alt="Logo Argentina Programa" width="20%" height="">
+    </a>
+<!--listado desordenado para agregar en grupo todo lo que es para logos, iniciar sesión, en horizontal,
+text white lo traje de Bootstrap y los fa de fontawesome, github con target me abre pagina nueva de la pagina misma-->
+<ul class= "list-group list-group-horizontal">
+<li class="list-group-item"><a href="https://github.com/portfoliosil22" target="_blank"><i class="fa-brands fa-github fa-2xl text-white"></i></a></li>
+<li class="list-group-item">
+  <!-- Button trigger modal, abre el login, lo sacamos el button y lo agregamos con data en i -->
+  <i data-bs-toggle="modal" type="button" data-bs-target="#loginModal"
+  class="fa-solid fa-user-lock fa-2x text-white"></i>
+</li>
+</ul>
+</div>
+</nav>
+    
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Inicio Sesión</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!--FORMULARIO, SALE DEL LOGIN EN EL MODAL, form-->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Ingrese email para contacto</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>

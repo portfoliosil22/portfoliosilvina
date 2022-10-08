@@ -1,15 +1,10 @@
 /*.row{
     padding: 10px;
 }*/
-div{
-    background-color: gray;
-    text-align: center;
-    
-}
 /*nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 /* estilo foto perfil*/
 @media (min-width:576px){
@@ -18,8 +13,8 @@ div{
         width: 15%;
         border-radius: 100%;
         box-shadow: 6px 8px 8px 8px gray;
-        left: 30px;
-        top: 900px;
+        left: 40px;
+        top: 820px;
     }
 }
  @media (max-width:575px){
@@ -28,7 +23,7 @@ div{
         width: 30%;
         border-radius: 100%;
         box-shadow: 4px 4px 4px gray;
-        left: 35px;
+        left: 25px;
         top: 300px;
     }
 }
