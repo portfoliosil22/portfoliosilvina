@@ -12,7 +12,7 @@
         position:absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 6px 8px 8px 8px gray;
+        box-shadow: 6px 6px 6px 6px gray;
         left: 40px;
         top: 820px;
     }
@@ -24,7 +24,7 @@
         border-radius: 100%;
         box-shadow: 4px 4px 4px gray;
         left: 25px;
-        top: 300px;
+        top: 200px;
     }
 }
 
